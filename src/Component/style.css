@@ -1,0 +1,33 @@
+.cal-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0px auto;
+}
+.cal-container button {
+    flex: 25%;
+    flex-grow: 0;
+    padding: 1em 0em;
+    font-size: 1em;
+    border: 0px;
+    background-color: #060606;
+    color: #fff;
+    outline: #212121 solid 1px;
+    cursor: pointer;
+}
+.cal-container button:hover{
+    background-color: #44483C;
+}
+.cal-container button.w-50 {
+    flex: 50%;
+}
+input.resultbox {
+    flex: 100%;
+    height: 60px;
+    font-size: 2em;
+    padding: 1em;
+    background: #192623;
+    border: 0px;
+    color: #fff;
+}
